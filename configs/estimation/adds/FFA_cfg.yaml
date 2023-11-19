@@ -15,17 +15,17 @@ DATASET:
     num_workers: 0
     train:
         format: "RESIDEDataset"
-        file_path: "./data/ITS/train"
+        file_path: "/home/aistudio"
         crop_size: 240
         suffix: ".png"
     valid:
         format: "RESIDEDataset"
-        file_path: "./data/SOTS/indoor"
+        file_path: "/home/aistudio/indoor"
         crop_size: 'whole'
         suffix: ".png"
     test:
         format: "RESIDEDataset"
-        file_path: "./data/SOTS/indoor"
+        file_path: "/home/aistudio/indoor"
         crop_size: 'whole'
         suffix: ".png"
 
